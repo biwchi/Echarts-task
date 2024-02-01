@@ -1,0 +1,23 @@
+:root {
+  --color-white: #ffffff;
+  --color-primary: #18a0fb;
+  --color-blue: #13d6ff;
+  --color-purple: #9747ff;
+  --color-text: #656565;
+  --color-bg: #1b1b1e;
+  --color-secondary-bg: #212226;
+  --color-grid-line: #292829;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  color: var(--color-white);
+  background-color: var(--color-bg);
+}
+
+button,
+input {
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
